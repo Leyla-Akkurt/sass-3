@@ -1,0 +1,38 @@
+@use "module.scss";
+@use "function.scss" as f;
+
+$one-pixel:f.converted(1);
+$two-rem:f.converted(32);
+.container{
+    color:module.$green-color;
+    border:$one-pixel solid module.$red-color;
+    text-align:center;
+    h1{
+        display:inline-block;
+        border-bottom:$one-pixel solid module.$blue-color;
+    }
+    .section-1{
+        display:flex;
+        padding:$two-rem;
+        .blue-color{
+            padding:$two-rem;
+            border:$one-pixel solid module.$green-color;
+           
+        }
+        .red-color{
+            color:module.$red-color;
+            padding:$two-rem;
+            border:$one-pixel solid module.$green-color;
+        }
+    }
+    
+    .section-2{
+        padding:$two-rem;
+        .green-color{
+            border:$one-pixel solid module.$blue-color;
+            padding:$two-rem;
+           
+    }
+}
+
+}

@@ -1,0 +1,4 @@
+@function converted($number){
+    $rem:rem;
+    @return calc($number/16)+rem;
+}

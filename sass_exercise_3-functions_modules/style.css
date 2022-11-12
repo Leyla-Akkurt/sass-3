@@ -1,0 +1,29 @@
+.container {
+  color: green;
+  border: 0.0625rem solid red;
+  text-align: center;
+}
+.container h1 {
+  display: inline-block;
+  border-bottom: 0.0625rem solid blue;
+}
+.container .section-1 {
+  display: flex;
+  padding: 2rem;
+}
+.container .section-1 .blue-color {
+  padding: 2rem;
+  border: 0.0625rem solid green;
+}
+.container .section-1 .red-color {
+  color: red;
+  padding: 2rem;
+  border: 0.0625rem solid green;
+}
+.container .section-2 {
+  padding: 2rem;
+}
+.container .section-2 .green-color {
+  border: 0.0625rem solid blue;
+  padding: 2rem;
+}/*# sourceMappingURL=style.css.map */
