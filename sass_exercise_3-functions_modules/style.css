@@ -14,6 +14,7 @@
 .container .section-1 .blue-color {
   padding: 2rem;
   border: 0.0625rem solid green;
+  color: blue;
 }
 .container .section-1 .red-color {
   color: red;
@@ -26,4 +27,5 @@
 .container .section-2 .green-color {
   border: 0.0625rem solid blue;
   padding: 2rem;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

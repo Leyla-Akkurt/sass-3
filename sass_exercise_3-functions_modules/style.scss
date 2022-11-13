@@ -3,6 +3,7 @@
 
 $one-pixel:f.converted(1);
 $two-rem:f.converted(32);
+
 .container{
     color:module.$green-color;
     border:$one-pixel solid module.$red-color;
@@ -17,6 +18,7 @@ $two-rem:f.converted(32);
         .blue-color{
             padding:$two-rem;
             border:$one-pixel solid module.$green-color;
+            color:module.$blue-color;
            
         }
         .red-color{
@@ -31,6 +33,7 @@ $two-rem:f.converted(32);
         .green-color{
             border:$one-pixel solid module.$blue-color;
             padding:$two-rem;
+            font-size:f.converted(24);
            
     }
 }
